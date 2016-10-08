@@ -57,3 +57,14 @@ Traceback (most recent call last):
 NameError: name 'my_variable' is not defined
 ~~~~ 
 this means that we have not defined the variable *my_variable* in Python.
+
+#### **How are variables stored in memory?** 
+This section is especially intended for C, C++ and Java programmers, because the way these programming languages treat basic data types is different from the way Python does it. Those who start learning Python as their first programming language may skip to the next section. 
+
+
+In Python,a variable can be seen as a container (or some say a pigeonhole) to store certain values. While the program is running, variables are accessed and sometimes changed, i.e. a new value will be assigned to a variable. 
+By changing of value of a variable we mean that old value is removed and now the container i.e the variable now contains the new value.
+For C++ and Java programmers the above concept of how variables are stored in memory might be different from the way they are stored in C++ and Java.
+
+Putting values into the variables can be realized with assignments. The way you assign values to variables is nearly the same in all programming languages. In most cases the equal "=" sign is used. The value on the right side will be saved in the variable name on the left side. 
+
