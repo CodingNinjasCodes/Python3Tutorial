@@ -20,20 +20,78 @@
 
     <section class="main-content">
       <h1>
-<a id="basic" class="anchor" href="#basic" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Basic</h1>
+<a id="python-3x-tutorial" class="anchor" href="#python-3x-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Python 3.x Tutorial</h1>
 
 <h2>
-<a id="data-types" class="anchor" href="#data-types" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data Types</h2>
+<a id="python" class="anchor" href="#python" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Python</h2>
 
-<div class="highlight highlight-source-python"><pre>my_num <span class="pl-k">=</span> <span class="pl-c1">5</span>
-my_strin <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>Test<span class="pl-pds">"</span></span>
-my_bool <span class="pl-k">=</span> <span class="pl-c1">True</span>
-<span class="pl-c1">print</span>(my_num,my_strin,my_bool)</pre></div>
+<p>Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and <a href="http://c2.com/cgi/wiki?DynamicTyping">dynamic typing</a>, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.
+Like Java, Python is also an <a href="http://www.codeproject.com/Articles/696764/Differences-between-compiled-and-Interpreted-Langu">interpreted</a> programming language.</p>
 
-<pre><code>5 Test True
+<h3>
+<a id="python-3x" class="anchor" href="#python-3x" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Python 3.x</h3>
+
+<p>Current tutorial will be focused on Python 3.x . Python 3.x is the present and future of the language.</p>
+
+<h2>
+<a id="interpreter-and-interactive-shell" class="anchor" href="#interpreter-and-interactive-shell" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Interpreter and Interactive shell</h2>
+
+<p>Python is an interpreted language and comes with an interactive shell.The interactive shell is interactive in the way that it stands between the commands or actions and their execution.</p>
+
+<p>To fire up the interactive shell,type :</p>
+
+<pre><code>$ python3
 </code></pre>
 
-<div class="highlight highlight-source-python"><pre></pre></div>
+<p>in the terminal on your machine. If Python 3.x is succesfully installed on your machine, you should get such kind of output.</p>
+
+<pre><code>Python 3.5.1+ (default, Mar 30 2016, 22:46:26) 
+[GCC 5.3.1 20160330] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt; 
+</code></pre>
+
+<p>type </p>
+
+<pre><code>&gt;&gt;&gt; exit()
+</code></pre>
+
+<p>to quit the interactive shell.</p>
+
+<h2>
+<a id="data-types-and-variables" class="anchor" href="#data-types-and-variables" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data types and variables</h2>
+
+<h3>
+<a id="what-is-a-variable-" class="anchor" href="#what-is-a-variable-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What is a variable ?</strong>
+</h3>
+
+<p>A variable is something which can change. A variable is a way of referring to a memory location used by a   computer program.In many programming languages a variable is a symbolic name for this physical location. This memory location contains values, like numbers, text or more complicated types. We can use this variable to tell the computer to save some data in this location or to retrieve some data from this location. </p>
+
+<h3>
+<a id="how-to-create-a-variable-in-python-" class="anchor" href="#how-to-create-a-variable-in-python-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>How to create a variable in Python ?</strong>
+</h3>
+
+<p>You create a varible in Python by the the following syntax.</p>
+
+<p><strong>variable_name = variable_value</strong>
+<code>my_variable = 90</code>
+Here we have created a variable with identifier name as <em>my_variable</em> and has assigned a value of <em>10</em> to it.</p>
+
+<h4>
+<a id="how-to-print-something-in-python-" class="anchor" href="#how-to-print-something-in-python-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>How to print something in Python ?</strong>
+</h4>
+
+<p>Python comes with a built in command <code>print</code> to print something on the interactive shell.
+type <code>print("Hello world!")</code> in the interactive shell, after this you'll see a message; <strong>Hello world!</strong>.
+Similarly to print the variable <em>my_variable</em> that we created before, type <code>print(my_variable)</code>, you will see a message saying <strong>90</strong>.</p>
+
+<p>If something like a prompt comes up, similar like this :</p>
+
+<pre><code>Traceback (most recent call last):
+NameError: name 'my_variable' is not defined
+</code></pre>
+
+<p>this means that we have not defined the variable <em>my_variable</em> in Python.</p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/CodingNinjasCodes/Python3Tutorial">Python3tutorial</a> is maintained by <a href="https://github.com/CodingNinjasCodes">CodingNinjasCodes</a>.</span>
